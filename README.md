@@ -10,6 +10,9 @@ Une implémentation optimisée du célèbre automate cellulaire de John Conway, 
 
 ![Aperçu du jeu](assets/screenshot_jeu.png)
 
+![Aperçu du jeu](assets/screenshot_jeu2.png)
+
+
 ## ✨ Fonctionnalités
 
 * **Univers Infini :** Pas de murs, pas de limites. L'univers s'étend aussi loin que la mémoire de votre ordinateur le permet.
