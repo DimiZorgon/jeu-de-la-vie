@@ -6,8 +6,6 @@
 
 Une implémentation optimisée du célèbre automate cellulaire de John Conway, réalisée en Python avec Pygame. Ce projet se distingue par l'utilisation d'une **grille infinie** et d'un algorithme de gestion de mémoire efficace.
 
-![Aperçu du jeu](https://via.placeholder.com/800x400?text=Inserer+une+capture+d'ecran+ici)
-*(Pense à remplacer cette image par une capture d'écran de ton canon de Gosper !)*
 
 ## ✨ Fonctionnalités
 
@@ -22,7 +20,7 @@ Une implémentation optimisée du célèbre automate cellulaire de John Conway, 
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [https://github.com/ton-pseudo/jeu-de-la-vie-infini.git](https://github.com/ton-pseudo/jeu-de-la-vie-infini.git)
+    git clone [https://github.com/DimiZorgon/jeu-de-la-vie-infini.git]
     cd jeu-de-la-vie-infini
     ```
 
@@ -49,13 +47,11 @@ Une implémentation optimisée du célèbre automate cellulaire de John Conway, 
 | **C** | Vider la grille (Clear) |
 | **R** | Recentrer la caméra à l'origine (0,0) |
 
-## 🧠 Sous le capot (Architecture Technique)
-
-Ce projet a été réalisé dans le cadre d'un module d'informatique (Niveau Bac+3). L'architecture repose sur la **Programmation Orientée Objet**.
 
 ### Structure des fichiers
 * `main.py` : Gestion de la boucle de jeu, des événements (Inputs), de la caméra (Conversion Monde $\leftrightarrow$ Écran) et du rendu graphique.
 * `grille.py` : Logique métier pure. Contient l'algorithme d'évolution.
+* `assets/` : Contient la police et le logo
 
 ### Algorithme "Sparse" (Grille Creuse)
 Contrairement aux implémentations classiques utilisant une matrice 2D fixe (Tableau `N x N`), ce projet utilise un `set()` (ensemble) stockant uniquement les coordonnées `(x, y)` des cellules vivantes.
