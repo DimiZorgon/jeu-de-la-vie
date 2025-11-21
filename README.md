@@ -6,7 +6,8 @@
 
 Une implémentation optimisée du célèbre automate cellulaire de John Conway, réalisée en Python avec Pygame. Ce projet se distingue par l'utilisation d'une **grille infinie** et d'un algorithme de gestion de mémoire efficace.
 
-![Aperçu du jeu] (assets/screenshot_jeu.png)
+![Aperçu du jeu] 
+'assets/screenshot_jeu.png'
 
 ## ✨ Fonctionnalités
 
