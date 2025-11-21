@@ -20,7 +20,7 @@ Une implémentation optimisée du célèbre automate cellulaire de John Conway, 
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [https://github.com/DimiZorgon/jeu-de-la-vie-infini.git]
+    git clone [https://github.com/DimiZorgon/jeu-de-la-vie.git]
     cd jeu-de-la-vie-infini
     ```
 
