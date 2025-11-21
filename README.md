@@ -8,7 +8,7 @@ Une implémentation optimisée du célèbre automate cellulaire de John Conway, 
 
 ##Aperçu du jeu : 
 
-![Aperçu du jeu](assets/screenshot_jeu.png)
+* ![Aperçu du jeu](assets/screenshot_jeu.png)
 
 ## ✨ Fonctionnalités
 
