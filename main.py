@@ -58,13 +58,13 @@ class Jeu:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((LARGEUR_INIT, HAUTEUR_INIT), pygame.RESIZABLE)
-        pygame.display.set_caption("Jeu de la Vie - Ingénieur Edition")
+        pygame.display.set_caption("Jeu de la Vie")
         self.clock = pygame.time.Clock()
         
-        # Polices (Pense à remettre ta police perso si tu l'as)
-        self.font_ui = pygame.font.SysFont("arial", 16)
-        self.font_menu = pygame.font.SysFont("arial", 20, bold=True)
-        self.font_titre = pygame.font.SysFont("arial", 30, bold=True)
+        # Polices
+        self.font_ui = pygame.font.Font("assets/font.ttf", 18)
+        self.font_menu = pygame.font.Font("assets/font.ttf", 16)
+        self.font_titre = pygame.font.Font("assets/font.ttf", 18)
         self.font_info = pygame.font.SysFont("consolas", 14)
         
         self.grille = Grille()
